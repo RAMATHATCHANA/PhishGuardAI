@@ -1,0 +1,41 @@
+# Dependencies - never commit these!
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables - NEVER commit this!
+.env
+backend/.env
+
+# Databases (contain real user data)
+*.db
+backend/logs.db
+backend/users.db
+
+# Build output (generated, not source)
+frontend/dist/
+frontend/node_modules/.vite/
+
+# Replit-specific files (not needed on GitHub)
+.replit
+replit.md
+.local/
+.config/.semgrep/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Trained ML model files (too large for GitHub)
+backend/models/*.pkl
+backend/models/*.joblib
+backend/models/*.h5
+
+# Logs
+*.log
